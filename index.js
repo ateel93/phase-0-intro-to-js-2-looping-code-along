@@ -10,5 +10,10 @@ function writeCards() {
 }
 
 
-
+function countDown() {
+  let count = 10;
+  while (count >= 0) {
+    console.log(count--);
+  }
+  }
 
